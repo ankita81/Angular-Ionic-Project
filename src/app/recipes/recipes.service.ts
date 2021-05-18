@@ -11,13 +11,19 @@ export class RecipesService {
     id: 'Sandwich',
     title: 'Sandwich',
     imageUrl: 'https://cdn.pixabay.com/photo/2016/11/06/23/31/breakfast-1804457_960_720.jpg',
-    ingredients: ['French Fries', 'Salad', 'Hamburger']
+    ingredients: ['Bread', 'Vegetables', 'Sauces']
     },
     {
       id: 'Salad',
       title: 'Salad',
       imageUrl: 'https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg',
-      ingredients: ['Meat', 'Momos', 'Pasta']
+      ingredients: ['Sauces', 'Vegetables', 'Spices']
+      },
+      {
+        id: 'Hamburger',
+        title: 'Hamburger',
+        imageUrl: 'https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg',
+        ingredients: ['Bread', 'Sauces', 'Spices']
       }
   ];
 
