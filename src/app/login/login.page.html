@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">Please Login Here</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+        <ion-col size-md="6" offset-md="3">
+          <form id="custom-form">
+            <ion-item>
+              <ion-label position="floating">Username</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Password</ion-label>
+              <ion-input type="Password"></ion-input>
+            </ion-item>
+            <ion-buttons slot="end" collapse="true" class="ion-margin-vertical submit-btn">
+              <ion-button fill="solid" color="primary">
+                Submit
+              </ion-button>
+            </ion-buttons>
+            <ion-buttons slot="end" collapse="true" class="ion-margin-vertical submit-btn submit-btn1">
+              <ion-button fill="solid" color="primary" href="/sign-up">
+                Create New Account
+              </ion-button>
+            </ion-buttons>
+            <ion-buttons slot="end" collapse="true" class="ion-margin-vertical submit-btn submit-btn1">
+              <ion-button class="skip" fill="solid" href="/recipes">
+                Skip
+              </ion-button>
+            </ion-buttons>
+          </form>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">@2021.All Rights Reserved</ion-title>
+  </ion-toolbar>
+</ion-footer>
