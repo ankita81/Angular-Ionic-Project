@@ -13,9 +13,7 @@ export class RecipesPage implements OnInit {
   recipes: Recipe[];
   today: number = Date.now();
 
-
   constructor(private recipeService: RecipesService) { }
-
   ngOnInit() {
    this.recipes = this.recipeService.getAllRecipes();
   }

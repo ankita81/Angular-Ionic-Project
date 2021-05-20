@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: ':recipeId',
     loadChildren: () => import('./recipe-detail/recipe-detail.module').then( m => m.RecipeDetailPageModule)
+  },
+  {
+    path: ':login',
+    loadChildren: () => import('./recipe-detail/recipe-detail.module').then( m => m.RecipeDetailPageModule)
   }
 ];
 
