@@ -3,15 +3,12 @@ ion-title.md.title-default.hydrated {
   padding-top: 10px;
 }
 .banner {
-  background: #dfdfdf;
   padding: 50px 0;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3Kt39YiII_udj_fI3zODQrGExTWTpoJMug&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-:host(.button-solid) {
-  --background-activated: transparent;
-  --background-hover: var(--ion-color-primary-contrast, #fff);
-  --background-focused: var(--ion-color-primary-contrast, #fff);
-  --background-activated-opacity: 0;
-  --background-focused-opacity: 0.24;
-  --background-hover-opacity: 0.08;
-  --box-shadow: transparent;
+ion-button{
+  --box-shadow:none;
 }
+
